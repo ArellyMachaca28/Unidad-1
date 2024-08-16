@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <div class="main">
+        <form>
+            <div class="campo">
+                <label for="nombres">Nombres:</label>
+                <input type="text" name="nombres" id="nombres" placeholder="Ingrese sus Nombres">
+            </div>
+            <div class="campo">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos">
+            </div>
+            <div class="campo">
+                <label for="nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="nacimiento" id="nacimiento">
+            </div>
+            <div class="campo">
+                <p>Sexo</p>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su correo">
+            </div>
+            <div>
+                <label for="phone">Ingrese su número:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </div>
+            <div class="campo">
+                <label for="peso">Peso:</label>
+                <input class="w-50" type="number" name="peso" id="peso" step="any">kg
+            </div>
+            <div class="campo">
+                <label for="altura">Altura:</label>
+                <input class="w-50" type="number" name="altura" id="altura" step="any">metros
+            </div>
+            <div>
+                <p>¿Practica deporte?</p>
+                <input type="radio" id="sí" name="¿Practica deporte?" value="Sí practico deporte">
+                <label for="sí">Sí practico deporte</label>
+                <input type="radio" id="no" name="¿Practica deporte?" value="No practico deporte">
+                <label for="no">No practico deporte</label>
+            </div>
+            <div>
+                <button type="button" id="enviar" onclick="datos()">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>

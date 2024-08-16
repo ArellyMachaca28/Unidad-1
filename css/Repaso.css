@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2{
+    background-color: #B28495;
+    margin-right: 150px;
+    border: 5px dotted #835353;
+}
+div{
+   background-color: #B4ABC1;
+   margin-right: 200px;
+   border: 2px solid #8F8282;
+   border-radius: 10px;
+}
+div.poema{
+    background-color: #A4E8A5;
+    margin-left: 100px;
+    border: 2px solid #477E6D;
+ }
+ div.conceptos{
+    background-color: #A4E8A5;
+    margin-left: 100px;
+    border: 2px solid #477E6D;
+ }

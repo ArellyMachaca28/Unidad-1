@@ -1,0 +1,369 @@
+  body{
+    background-color: #E9CFD4;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav.header{
+    text-align: center;
+    width: 100%;
+   }
+  a {
+    text-decoration: underline;
+    color: #6A5358;
+  }
+  nav a {
+    font-weight: 100;
+    padding-left: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } 
+  nav a:hover {
+    color: black;
+  }
+  
+  @media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+  
+    nav {
+      padding: 10px 0px;
+    }
+  }
+  header {
+    display: flex;
+    background-color: #ECBEAF;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 5px;
+    border: 1px solid #6A5358    
+     ;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 70px;
+  }
+  div.títuloheader{text-align: center;
+background-color: #DFA591;
+padding-top:-10px;
+padding-bottom: 35px;
+border: 5px double #A75252;
+color: #89253C;
+margin-right: 50px;
+margin-left: 50px;
+}
+  div.discografía {text-align: center;
+background-color: #EFBBBF;
+margin-right: 200px;
+margin-left: 200px ;
+padding: 20px;
+margin-top: 20px;
+margin-bottom:100px;
+}
+
+
+  .main{
+    margin-bottom: 150px;
+  }
+  .contenedor-de-portada{
+    background-image: url("../Recursos/TheErasTour/fondo-degradado.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 710px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .titulo{
+    padding: 5px ;
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 15px;
+    color: #6A5358;
+    background-color:  #EBBFD6;
+    border: 1px solid ;
+    border-color: #6A5358;
+  }
+  
+  .titulo-foto{
+    margin-top: 20px;
+    margin-left: 200px; 
+    color:  white; 
+    text-align: center;
+  }
+  
+  h1{
+    font-family: felix titling; 
+    font-size: 70px; 
+    margin-bottom: -75px;
+  }
+  
+  .h2-1{
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 0%;
+    font-size: 15px; 
+    text-align: center;
+  }
+  
+  .video{
+    margin-top: 325px; 
+    margin-bottom: 83px;
+    margin-right: 20px;
+    outline: #352732 double 5px;
+    text-align: center;
+  }
+  
+  .h2-2{
+    font-family: geniso;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .contenedor{
+    margin-left: 900px; 
+    margin-right: 100px; margin-top: 15px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #7B5287        
+  }
+  
+  .dato1{
+    text-align:left;
+    margin-right: 50px;
+    font-size:28px;
+    margin-left: -45px;
+  }
+  
+  .dato2{
+    margin-right:50px;
+    font-size: 28px; 
+    text-align: center;
+  }
+  
+  .dato3{
+    margin-right:100px; 
+    font-size: 28px; 
+    text-align: center;
+  }
+  
+  
+  .entradas{
+    border-top: #8A4A62 solid;
+    border-bottom:  #8A4A62 solid;
+    margin-top: 20px; 
+    margin-left: 900px; 
+    margin-right: 100px; 
+    font-family: Arial;
+    line-height: 2;
+  }
+  .p-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #A9647E;
+    text-align: center;
+    line-height: 1;
+  }
+  
+  
+  .contenido2-1{
+    margin-top: 50px;
+    margin-left: 900px; 
+    margin-right: 100px; 
+    font-family: Arial;
+  }
+  .que-es{
+    text-align: left; 
+    font-size: 25px;
+  }
+  .p-2{
+    text-align: justify; 
+    line-height: 2;
+  }
+  
+  
+  .contenido2-2{
+    margin-top: 20px; 
+    margin-left: 900px; 
+    margin-right: 100px; 
+    font-family: Arial;
+  }
+  .fechas{
+    text-align: left;
+    font-size: 25px;
+  }
+  .p-3{
+    text-align: justify;
+    line-height: 2;
+  }
+  
+  
+  .contenido2-3{
+    margin-top: 20px; 
+    margin-left: 900px; 
+    margin-right: 100px; 
+    font-family: Arial;
+  }
+  .organización{
+    text-align: left; 
+    font-size: 25px;
+  }
+  .p-4{
+    text-align: justify; 
+    line-height: 2;
+  }
+  
+  .contenido2-4{
+    margin-top: 20px; 
+    margin-left: 900px; 
+    margin-right: 100px; 
+    font-family: Arial;
+  }
+  .pelicula{
+    text-align: left;
+    font-size: 25px;
+  }
+  .p-5{
+    text-align: justify; 
+    line-height: 2;
+  }
+  
+  div.formulario{background-color: #CAC0E3;
+    padding: 50px;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    margin-right: 30px ;
+    margin-left: 30px;
+    border: 5px dotted #9891AB;
+    border-radius: 40px;}
+  
+  *{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: ;
+  }
+  
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 25px;
+  }
+  div.container{margin-top: 90px;}
+  .imagencontainer{
+    margin-left: 450px;
+  }
+  
+  .footer{
+    padding: 10px 10px 10px 10px;
+    background-color: #D1B0D4;   
+  }
+  
+  .footer-link{
+    display: flex;
+  }
+  
+  .link{
+    width: 310px;
+  }
+  
+  .link h3{
+    font-size: 15px;
+    color: #52357D;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  .link a{
+    font-size: 15px;
+    color: rgb(37, 14, 44);
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .link a:hover{
+    color: black;   
+  }
+  
+  .socials{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .socials a{
+    color: rgb(166, 243, 243);
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: blanchedalmond;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .socials a:hover{
+    background-color: black;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    background-color:rgb(166, 243, 243);
+    padding: 14px;
+    border: 2px solid #52357D;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: rgb(52, 21, 53);
+  }
+  
+  ::placeholder{
+    color: rgb(37, 14, 44);
+  }
+  
+  .btn{
+    background-color: blanchedalmond;
+    color: rgb(150, 75, 116);
+    border: 0;
+  }
+  
+  hr{
+    border: 1px solid #52357D;
+  }
+  
+  .footer-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-text p{
+    font-size: 15px;
+    color: rgb(97, 44, 110);
+  }
+  
+  @media(max-width:991px) {
+    .footer {
+        padding: 30px
+    }
+  
+    .footer-link {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }  
+  
+    .socials {
+        justify-content: center;
+        color:rgb(166, 243, 243);
+    }
+  
+    .footer-text {
+        text-align: center;
+    }
+  }
